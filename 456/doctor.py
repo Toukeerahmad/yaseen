@@ -60,7 +60,7 @@ st.title("Human disease detector")
 
 #set subtitle
 st.header("Make sure you upload right image")
-uploaded_file=st.file_uploader("Drop your video",type=[ "jpg", "jpeg", "png"])
+uploaded_file=st.file_uploader("Drop your image",type=[ "jpg", "jpeg", "png"])
 
 
 submit_btn=st.button("Generate analysis")
