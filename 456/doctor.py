@@ -50,16 +50,16 @@ model = genai.GenerativeModel(
 )
 
 # Set page config
-st.set_page_config(page_title="DEEP-FAKE VIDEOS DETECTOR", page_icon=":robot:")
+st.set_page_config(page_title="AI DOCTOR", page_icon=":robot:")
 
 # Set logo
 # st.image("logo.jpeg", width=200)  # Adjust width as needed
 
 # Title
-st.title("DEEP-FAKE VIDEOS DETECTOR")
+st.title("Human disease detector")
 
 #set subtitle
-st.header("Make sure about the authenticity of your video!!")
+st.header("Make sure you upload right image")
 uploaded_file=st.file_uploader("Drop your video",type=[ "jpg", "jpeg", "png"])
 
 
